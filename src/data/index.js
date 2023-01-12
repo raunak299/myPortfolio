@@ -9,7 +9,10 @@ const skills = [
     category: "Frontend",
     skills: "HTML5, CSS3, React.js, Redux, TypeScript, JavaScript",
   },
-  { category: "Languages", skills: "Javascript, c++, java , Data Structures & Algorithm" },
+  {
+    category: "Languages",
+    skills: "Javascript, c++, java , Data Structures & Algorithm",
+  },
   // {
   //   category: "Automation",
   //   skills: "Node.js, MongoDB, Mongoose, Express, Oracle SQL",
@@ -30,7 +33,7 @@ const typeSpeed = 100; //in ms
 
 const projects = [
   {
-    img: 'https://ik.imagekit.io/8vw9ryi0k/Qkart.png?ik-sdk-version=javascript-1.4.3&updatedAt=1671011895384',
+    img: "https://ik.imagekit.io/8vw9ryi0k/Qkart.png?ik-sdk-version=javascript-1.4.3&updatedAt=1671011895384",
     title: "Qkart",
     description:
       "A modern e-commerce website designed using React.js (using reducer hook and context API to manage state effectively).",
@@ -39,9 +42,18 @@ const projects = [
     live: "https://qkart-demo.netlify.app/",
   },
   {
+    img: "https://res.cloudinary.com/ducugiwdi/image/upload/v1673546646/twitter-clone-photo_ag2a06.png",
+    title: "Twitter",
+    description:
+      "Twitter is social media app that connects users and enables to share their content to the web similar to what Twitter",
+    skills: "React.js, Redux,JavaScript,  CSS3",
+    github: "https://github.com/raunak299/clone-twitter",
+    live: "https://twitter-clone-version.netlify.app",
+  },
+  {
     img: "https://ik.imagekit.io/8vw9ryi0k/webQuiz.png?ik-sdk-version=javascript-1.4.3&updatedAt=1671011941167",
     title: "WebQuiz",
-    description:"A modern Quiz WebApp built using React.js , Typescript",
+    description: "A modern Quiz WebApp built using React.js , Typescript",
     skills: "React.js, Redux, typeScript , CSS3",
     github: "https://github.com/raunak299/webQuiz",
     live: "https://webquiz-app.netlify.app/",
@@ -49,8 +61,7 @@ const projects = [
   {
     img: "https://ik.imagekit.io/8vw9ryi0k/QBlog.png?ik-sdk-version=javascript-1.4.3&updatedAt=1671011912032",
     title: "QBlog",
-    description:
-      "A modern Blog WebApp built using React.js and Firebase",
+    description: "A modern Blog WebApp built using React.js and Firebase",
     skills: "React.js, Redux, Javascript , CSS3",
     github: "https://github.com/raunak299/embifi-assignment",
     live: "https://embifi-assignment.netlify.app/",
@@ -64,7 +75,6 @@ const projects = [
     github: "https://github.com/raunak299/myPizza",
     live: "https://my-pizzza.netlify.app/",
   },
- 
 ];
 
 export {
